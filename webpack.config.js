@@ -7,6 +7,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const Dovenv = require('dotenv-webpack');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
+
 module.exports = {
     entry: './src/index.js',
     output: {
